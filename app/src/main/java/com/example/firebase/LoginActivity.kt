@@ -24,7 +24,7 @@ class LoginActivity : AppCompatActivity() {
 
         //inicializamos e4l oobjeto direbaseauth
         auth= FirebaseAuth.getInstance()
-        
+
         btnLogin = findViewById<Button>(R.id.btnLogin)
 
         btnLogin.setOnClickListener{
